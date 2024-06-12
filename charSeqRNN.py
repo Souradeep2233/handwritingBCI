@@ -8,7 +8,7 @@ import scipy.io
 from scipy.ndimage.filters import gaussian_filter1d
 import scipy.special
 import pickle
-from dataPreprocessing import prepareDataCubesForRNN
+from handwritingBCI.dataPreprocessing import prepareDataCubesForRNN
 import sys
 
 class charSeqRNN(object):
